@@ -6,4 +6,4 @@ def home_page(request):
     return HttpResponse('<h1>this is a Home page<h1>')
 
 def about_page(request):
-    return HttpResponse('this is a About page')
+    return HttpResponse('<h1>this is a About page<h1>')
