@@ -10,3 +10,6 @@ def about_page(request):
 
 def contact_page(request):
     return render(request, 'website/contact.html')
+
+def elements_page(request):
+    return render(request, 'website/elements.html')
